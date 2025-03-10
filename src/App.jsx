@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./sections/Header";
 import Hero from "./sections/Hero";
+import Features from "./sections/Features";
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <main className="overflow-hidden">
         <Header />
         <Hero />
+        <Features />
       </main>
     </div>
   );
